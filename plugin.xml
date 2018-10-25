@@ -4,11 +4,8 @@
     <name>Secure LocalStorage</name>
     <description>Secure localStorage. This plugin will store local data encrypted using the IOS keychain or the Android keystore. Use it to store temporary sensitive data which has to survive an app exit/shutdown.</description>
     <license>MIT</license>
-
-    <dependency
-      id="es6-promise-plugin"
-      url="https://github.com/vstirbu/PromisesPlugin.git">
-    </dependency>
+	
+    <dependency id="es6-promise-plugin" version="4.2.2" />
   
     <engines>
         <engine name="cordova" version=">=3.0.0" />
